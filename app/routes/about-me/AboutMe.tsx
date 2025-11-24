@@ -24,7 +24,7 @@ export default function AboutMe() {
           <p className="text-white ml-3 font-light">
             Software Development and Physics
           </p>
-          <p className="text-white ml-3 font-light">82.10 WAM</p>
+          <p className="text-white ml-3 font-light">80.98 WAM</p>
         </div>
       </div>
     </>

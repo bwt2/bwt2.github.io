@@ -1,5 +1,5 @@
 # About me
-Welcome to my personal site : )
+Welcome to my personal site :)
 
 ```bash
 pnpm install

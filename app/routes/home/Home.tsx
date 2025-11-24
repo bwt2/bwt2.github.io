@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
         <section
-          className="flex justify-center items-center flex-col w-full mt-30 -scroll-mt-96"
+          className="flex justify-center items-center flex-col w-full mt-30"
           ref={outletRef}
         >
           <Outlet />

@@ -1,3 +1,5 @@
+import { skills } from './SkillsData';
+
 export default function Projects() {
   return (
     <>
