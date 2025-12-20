@@ -17,7 +17,7 @@ type NavbarProps = {
 const links: NavbarLinks[] = [
   { name: 'About Me', href: '/about-me' },
   { name: 'Experience', href: '/experience' },
-  { name: 'Projects', href: '/projects' },
+  { name: 'Blog', href: '/blog' },
   { name: 'Skills', href: '/skills' },
 ];
 

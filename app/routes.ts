@@ -7,7 +7,8 @@ export default [
     route('projects', 'routes/projects/Projects.tsx'),
     route('skills', 'routes/skills/Skills.tsx'),
 
-    route('blog', 'routes/blogs/Blogs.tsx'),
+    route('blog', 'routes/blog/Blogs.tsx'),
+    route('blog/:slug', 'routes/blog/BlogPost.tsx'),
   ]),
   route('*', 'routes/error/Error.tsx'),
 ] satisfies RouteConfig;

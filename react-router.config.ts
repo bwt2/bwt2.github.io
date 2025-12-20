@@ -1,9 +1,10 @@
 import type { Config } from '@react-router/dev/config';
+import { getAllSlugPaths } from './app/posts/posts';
 
 export default {
   ssr: false,
   async prerender({ getStaticPaths }) {
-    const staticPaths = await getStaticPaths();
-    return [...staticPaths];
+    const staticPaths = getStaticPaths();
+    return [...staticPaths, ...getAllSlugPaths()];
   },
 } satisfies Config;

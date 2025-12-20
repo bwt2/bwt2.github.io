@@ -9,6 +9,7 @@ import {
 
 import type { Route } from './+types/root';
 import './app.css';
+import SpinnerUrl from '~/assets/icons/spinner.svg';
 
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -76,8 +77,12 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
 
 export function HydrateFallback() {
   return (
-    <div className="flex items-center justify-center min-h-screen text-white animate-pulse">
-      Loading
-    </div>
+    <img
+      src={SpinnerUrl}
+      width={32}
+      height={32}
+      alt="Loading"
+      className="animate-spin self-center"
+    />
   );
 }

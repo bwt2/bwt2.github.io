@@ -20,6 +20,7 @@ const links: StarLink[] = [
   { order: 2, star: 'regulus', text: 'Experience', href: '/experience' },
   { order: 3, star: 'denebola', text: 'Projects', href: '/projects' },
   { order: 4, star: 'delta', text: 'Skills', href: '/skills' },
+  { order: 5, star: 'gamma', text: 'Blog', href: '/blog' },
 ];
 
 export default function Constellation({
